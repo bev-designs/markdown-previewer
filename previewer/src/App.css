@@ -1,0 +1,63 @@
+body{
+  background: rgb(34, 32, 32);
+  color: wheat;
+  position: relative;
+} 
+
+.Previewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  gap: 2rem;
+}
+#preview {
+  min-width: 800px; 
+  border: 1rem solid rgb(172, 144, 93);
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.editor {
+  background: rgb(172, 144, 93);
+  min-width: 600px; 
+  box-sizing: border-box;
+  border: .2rem solid;
+}
+textarea {
+  min-width: 595px;
+}
+a{
+  color: rgb(172, 144, 93);
+}
+img {
+  border-radius:  50%;
+  width: 20%;
+  text-align: center;
+}
+ion-icon:hover {
+color: wheat;
+}
+
+@media screen and (max-width: 840px) {
+  .Previewer {
+      padding: 6rem 1rem;
+  }
+  .editor {
+      min-width: 100%; 
+  }
+  #preview {
+      min-width: 80%; 
+      padding: 1rem;
+      border: .3rem solid rgb(172, 144, 93);
+  }
+  textarea {
+      min-width: 95%
+  }
+  h1 {
+      font-size: 1.5rem;
+  }
+  h2 {
+      font-size: 1.2rem;
+  } 
+
+} 
